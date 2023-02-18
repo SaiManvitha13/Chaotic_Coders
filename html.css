@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Event Handler</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">E<span>M</span>S</div>
+            <div class="pages">
+                <a href="#">Create Event</a>
+                <a href="#">Book Event</a>
+                <a href="#">View Events</a>
+                <a href="#">Log in</a>
+                <a href="#">Sign Up</a>
+                <a href="#">Calendar</a>
+            </div>
+            <div id="img">
+              <img src="C:\Users\POOJITHA\OneDrive\Pictures\p7.png" height="350px" width="400px">
+            </div>
+        </nav>
+        <div class="text">
+            <h1>Have simple event booking system</h1>
+            <h2>... Feel lighter</h2>
+            <br><br>
+        </div>
+    </header>
+  </body>
+</html>
