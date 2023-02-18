@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lobster&family=Quicksand:wght@400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300&display=swap');
+* {
+    
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+ 
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+}
+header{
+    background-color: white;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* margin: auto; */
+    width: 100%;
+    box-shadow: 0 0px 10px #f3eeee;
+    z-index: 999;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover{
+    color: #857d7d;
+}
+.current{
+    border-bottom: 3px solid #000;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-right: 5vmin;
+}
+.menu li a:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #000000;  
+    transform: scaleX(0);  
+    transition: transform 350ms;
+}
+
+
+.menu a:hover:after { 
+    transform: scaleX(1);
+}
+.register{
+    background-color: #006699;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+}
+.register a{
+    text-decoration: none;
+    color: white;
+}
+.register:hover {
+    background-color: rgb(83, 100, 145);
+}
+
+
+.showcase {
+    background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: white;
+    text-align: center;
+    line-height: 0.5;
+  }
+  
+  .showcase .overlay {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+  .showcase p strong {
+    font-size: 3.5rem;
+    font-family: 'Lobster', cursive;
+    color: white;
+  }
+  
+  .showcase h2 {
+    font-size: 5em;
+    color: white;
+  }
+  .showcase h2 span{
+    font-size: 10rem;
+    color: rgba(218, 191, 71, 0.623);
+    font-family: 'Italianno', cursive; 
+  }
+  
+  .showcase p {
+    font-size: 2em;
+    color: rgb(238, 153, 153);
+  }
+
+  .all-dates {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .date {
+    height: 140px;
+    width: 140px;
+    text-align: center;
+    vertical-align: center;
+    background: inherit;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    padding: 10px;
+    margin-right: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 .5em 1em rgba(0,0,0,.3);
+    border-radius: 10px;
+  }
+  
+  .date::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: inherit;
+    box-shadow: inset 0 0 3000px rgba(255,255,255,.5);
+    filter: blur(10px);
+    margin: -20px;
+  }
+  .date p,.venue h1 {
+    color: rgb(247, 242, 242);
+    font-weight: 900;
+  }
+  .venue h1 {
+    font-size: 45px;
+  }
+  .topic-heading {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #contact{
+	padding: 40px;
+	text-align: center;
+}
+
+#contact p {
+	font-size: 1.2rem;
+	max-width: 600px;
+	margin: auto;
+}
+
+#contact h2{
+	margin: 30px;
+	color: var(--primary-color);
+}
+
+  .social a{
+	margin: 0 5px;
+
+}
+.social a i:hover{
+	color: rgb(0 0 0 / 50%);
+	transform: scale(1.1);
+
+}
