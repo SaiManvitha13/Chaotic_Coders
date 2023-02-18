@@ -24,8 +24,20 @@
 <textarea id="event-description" name="event-description" required></textarea>
 <label for="event-date">Event Date</label>
 <input type="date" id="event-date" name="event-date" required>
+ <label for="organizer-email">Organizer Email</label>
+<input type="email" id="organizer-email" name="organizer-email" required>
+<label for="organizer-phone">Organizer Phone</label>
+<input type="phone" id="organizer-phone" name="organizer-phone" required>
 <label for="event-time">Event Time</label>
 <input type="time" id="event-time" name="event-time" required>
+<label for="event-type">Event Type</label>
+<input type="type" id="event-type" name="event-type" required>
+<label for="event-location">Event Location</label>
+<input type="location" id="event-location" name="event-location" required>
+<label for="event-status">Event Status</label>
+<input type="status" id="event-status" name="event-status" required>
+<label for="max-seats">Max Seats</label>
+<input type="seats" id="max-seats" name="max-seats" required>
 <input type="submit" value="Create Event">
 </form>
 <h2>Upcoming Events</h2>
@@ -33,12 +45,12 @@
     <li>
         <h3>Event Name</h3>
         <p>Event Description</p>
-        <p>Date:Event Date,Time:Event Time</p>
+        <p>Date:Event Date,Time:Event Time,Type:Event Type,Location:Event Location,Status:Event Status,Seats:Max Seats,Email:Organizer Email,Phone:Organizer Phone</p>
     </li>
     <li>
         <h3>Event Name</h3>
         <p>Event Description</p>
-        <p>Date:Event Date,Time:Event Time</p>
+        <p>Date:Event Date,Time:Event Time,Type:Event Type,Location:Event Location,Status:Event Status,Seats:Max Seats,Email:Organizer Email,Phone:Organizer Phone</p>
     </li>
 </ul>
 </main>
